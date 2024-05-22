@@ -1,0 +1,51 @@
+/* AuthorCard.css */
+.author-card {
+    background-color: #e0f7fa; /* Couleur d'arrière-plan cyan clair */
+    border: 1px solid #00796b; /* Bordure cyan foncé */
+    border-radius: 12px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    margin: 16px 0; /* Espacement vertical entre les cartes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombre de la carte */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transition pour l'ombre et la transformation */
+}
+
+.author-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre plus foncée au survol */
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+
+.author-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #002a4d; /* Couleur du titre */
+}
+
+.author-card ul {
+    list-style-type: none; /* Retirer les puces */
+    padding: 0; /* Pas de padding */
+}
+
+.author-card li {
+    font-size: 1em;
+    color: #010303; /* Couleur des auteurs */
+    margin: 4px 0; /* Espacement vertical entre les auteurs */
+}
+
+/* Ajout de styles pour le corps */
+body {
+    font-family: 'Roboto', sans-serif; /* Utilisation de la police Roboto */
+    background-color: #fafafa; /* Arrière-plan léger pour le corps */
+    margin: 0; /* Retirer les marges par défaut */
+    padding: 20px; /* Ajouter du padding autour */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
